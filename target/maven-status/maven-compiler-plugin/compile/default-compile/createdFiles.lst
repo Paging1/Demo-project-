@@ -1,0 +1,17 @@
+testCases\LOS\CreditCheck\LOS_1_CreditCheck.class
+testCases\LOS\CreditCheck\LOS_2_LoanOffer.class
+testCases\LOS\LOS_3_MyAccount.class
+utils\Constants.class
+pageObjects\MyAccount.class
+utils\Keywords.class
+pageObjects\Login.class
+testCases\LOS\LOS_2_EligibilityCheck.class
+pageObjects\Dashboard.class
+pageObjects\Reapply.class
+utils\GetScreenshot.class
+pageObjects\ApplicationForm.class
+pageObjects\LoanOffer.class
+pageObjects\Task.class
+testCases\LOS\LOS_1_Login.class
+utils\GetBrowserInstance.class
+testCases\LOS\TaskList\LOS_1_Task.class

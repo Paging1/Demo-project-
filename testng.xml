@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="[Test suite]" parallel="tests">
+	
+	
+
+
+	<test name="Login1">
+		<classes>
+			<class name="testCases.LOS.LOS_1_Login" />
+		</classes>
+	</test>
+
+	<test name="Login2">
+		<classes>
+			<class name="testCases.LOS.LOS_2_EligibilityCheck" />
+		</classes>
+	</test>
+	<test name="CreditCheckTest1">
+		<classes>
+			<class name="testCases.LOS.CreditCheck.LOS_1_CreditCheck" />
+		</classes>
+	</test>
+	<test name="CreditCheckTest2">
+
+		<classes>
+			<class name="testCases.LOS.CreditCheck.LOS_2_LoanOffer" />
+		</classes>
+	</test>
+
+
+
+
+
+
+
+	<!-- <test name="LOS_2_CreditCheck"> <classes> <class name="testCases.LOS.CreditCheck.LOS_1_CreditCheck"/> 
+		<class name="testCases.LOS.CreditCheck.LOS_2_LoanOffer"/> </classes> </test> 
+		<test name="LOS_3_TaskList"> <classes> <class name="testCases.LOS.TaskList.LOS_1_Task"/> 
+		</classes> </test> -->
+
+</suite>

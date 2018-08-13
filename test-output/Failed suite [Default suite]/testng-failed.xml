@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Default suite]]">
+  <test thread-count="5" name="Login1(failed)">
+    <classes>
+      <class name="testCases.LOS.LOS_1_Login">
+        <methods>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- testCases.LOS.LOS_1_Login -->
+    </classes>
+  </test> <!-- Login1(failed) -->
+  <test thread-count="5" name="CreditCheckTest2(failed)">
+    <classes>
+      <class name="testCases.LOS.CreditCheck.LOS_2_LoanOffer">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="TutionLoanOffer"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- testCases.LOS.CreditCheck.LOS_2_LoanOffer -->
+    </classes>
+  </test> <!-- CreditCheckTest2(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->

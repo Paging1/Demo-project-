@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="7" total="13" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="[Test suite]" duration-ms="193356" started-at="2018-08-13T05:40:09Z" finished-at="2018-08-13T05:43:22Z">
+    <groups>
+    </groups>
+    <test name="CreditCheckTest1" duration-ms="6" started-at="2018-08-13T05:40:09Z" finished-at="2018-08-13T05:40:09Z">
+    </test> <!-- CreditCheckTest1 -->
+    <test name="Login1" duration-ms="35539" started-at="2018-08-13T05:40:09Z" finished-at="2018-08-13T05:40:44Z">
+      <class name="testCases.LOS.LOS_1_Login">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.LOS.LOS_1_Login@1573f9fc]" name="openBrowser" is-config="true" duration-ms="13471" started-at="2018-08-13T05:40:09Z" finished-at="2018-08-13T05:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:testCases.LOS.LOS_1_Login@1573f9fc]" name="testLogin" duration-ms="21883" started-at="2018-08-13T05:40:22Z" finished-at="2018-08-13T05:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCases.LOS.LOS_1_Login@1573f9fc]" name="closeBrowser" is-config="true" duration-ms="155" started-at="2018-08-13T05:40:44Z" finished-at="2018-08-13T05:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.LOS.LOS_1_Login -->
+    </test> <!-- Login1 -->
+    <test name="Login2" duration-ms="90619" started-at="2018-08-13T05:40:09Z" finished-at="2018-08-13T05:41:39Z">
+      <class name="testCases.LOS.LOS_2_EligibilityCheck">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.LOS.LOS_2_EligibilityCheck@489115ef]" name="openBrowser" is-config="true" duration-ms="35738" started-at="2018-08-13T05:40:09Z" finished-at="2018-08-13T05:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="checkIndependentEligibiltyTest()[pri:1, instance:testCases.LOS.LOS_2_EligibilityCheck@489115ef]" name="checkIndependentEligibiltyTest" duration-ms="26292" started-at="2018-08-13T05:40:44Z" finished-at="2018-08-13T05:41:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIndependentEligibiltyTest -->
+        <test-method status="PASS" signature="checkschoolNotFound()[pri:3, instance:testCases.LOS.LOS_2_EligibilityCheck@489115ef]" name="checkschoolNotFound" duration-ms="11332" started-at="2018-08-13T05:41:11Z" finished-at="2018-08-13T05:41:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkschoolNotFound -->
+        <test-method status="PASS" signature="reapplyExistingLoans()[pri:4, instance:testCases.LOS.LOS_2_EligibilityCheck@489115ef]" name="reapplyExistingLoans" duration-ms="17100" started-at="2018-08-13T05:41:22Z" finished-at="2018-08-13T05:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reapplyExistingLoans -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCases.LOS.LOS_2_EligibilityCheck@489115ef]" name="closeBrowser" is-config="true" duration-ms="120" started-at="2018-08-13T05:41:39Z" finished-at="2018-08-13T05:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.LOS.LOS_2_EligibilityCheck -->
+    </test> <!-- Login2 -->
+    <test name="CreditCheckTest2" duration-ms="193356" started-at="2018-08-13T05:40:09Z" finished-at="2018-08-13T05:43:22Z">
+      <class name="testCases.LOS.CreditCheck.LOS_2_LoanOffer">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.LOS.CreditCheck.LOS_2_LoanOffer@ba2f4ec]" name="openBrowser" is-config="true" duration-ms="13471" started-at="2018-08-13T05:40:09Z" finished-at="2018-08-13T05:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="ValidUserLogin()[pri:10, instance:testCases.LOS.CreditCheck.LOS_2_LoanOffer@ba2f4ec]" name="ValidUserLogin" duration-ms="18335" started-at="2018-08-13T05:40:22Z" finished-at="2018-08-13T05:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidUserLogin -->
+        <test-method status="PASS" signature="IndependentLoanOffer()[pri:11, instance:testCases.LOS.CreditCheck.LOS_2_LoanOffer@ba2f4ec]" name="IndependentLoanOffer" duration-ms="161413" started-at="2018-08-13T05:40:41Z" finished-at="2018-08-13T05:43:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IndependentLoanOffer -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCases.LOS.CreditCheck.LOS_2_LoanOffer@ba2f4ec]" name="closeBrowser" is-config="true" duration-ms="103" started-at="2018-08-13T05:43:22Z" finished-at="2018-08-13T05:43:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.LOS.CreditCheck.LOS_2_LoanOffer -->
+    </test> <!-- CreditCheckTest2 -->
+  </suite> <!-- [Test suite] -->
+</testng-results>
